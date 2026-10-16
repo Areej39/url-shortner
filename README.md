@@ -24,7 +24,7 @@ Linkly is a URL shortener built with Next.js and MongoDB Atlas. It allows users 
 
 ## Live Demo
 
-Add your deployed Vercel URL here after deployment.
+https://url-shortner-theta-six-96.vercel.app/
 
 ## Getting Started
 
