@@ -24,26 +24,40 @@ Linkly is a URL shortener built with Next.js and MongoDB Atlas. It allows users 
 
 ## Live Demo
 
-https://url-shortner-theta-six-96.vercel.app/
+**Live Website:** [Linkly URL Shortener](https://url-shortner-theta-six-96.vercel.app/)
+
+## Screenshots
+
+### Landing Page
+
+![Linkly Landing Page](./screenshots/screenshot1.jpeg)
+
+### Shorten URL Page
+
+![Linkly Shorten Page](./screenshots/screenshot2.jpeg)
+
+### About Page
+
+![Linkly About Page](./screenshots/screenshot3.jpeg)
 
 ## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd url-shortner
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your repository's actual URL.
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your GitHub repository's actual URL.
 
-### 2. Install dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure environment variables
+### 3. Configure Environment Variables
 
 Create a `.env.local` file in the root directory:
 
@@ -51,9 +65,9 @@ Create a `.env.local` file in the root directory:
 MONGODB_URI=your_mongodb_atlas_connection_string
 ```
 
-Replace the example value with your MongoDB Atlas connection string. Never upload this file or expose your database credentials publicly.
+Replace the example value with your MongoDB Atlas connection string. Never upload `.env.local` or expose your database credentials publicly.
 
-### 4. Run the development server
+### 4. Run the Development Server
 
 ```bash
 npm run dev
@@ -61,7 +75,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### 5. Build for production
+### 5. Build for Production
 
 ```bash
 npm run build
@@ -78,24 +92,26 @@ npm run start
 
 ## Deployment
 
-This project can be deployed using Vercel.
+This project is deployed using Vercel.
 
-1. Push your code to GitHub.
+To deploy your own version:
+
+1. Push your project to GitHub.
 2. Import the repository into Vercel.
 3. Select Next.js as the framework if it is not detected automatically.
 4. Add `MONGODB_URI` under your Vercel project's environment variables.
 5. Deploy the application.
-6. Test link creation and redirection on the deployed website.
+6. Test URL creation and redirection on the deployed website.
 
 If you change environment variables after deployment, redeploy the project for the changes to take effect.
 
 ## Future Improvements
 
-- Link click analytics.
+- Click analytics for shortened URLs.
 - Link expiration.
 - QR code generation.
-- A dashboard for managing short links.
-- Additional validation and abuse prevention.
+- A dashboard for managing created links.
+- Additional URL validation and abuse prevention.
 
 ## Author
 
